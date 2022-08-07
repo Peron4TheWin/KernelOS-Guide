@@ -202,9 +202,13 @@ Para actualizar nuestros drivers tendremos que hacer el procedimiento que ya hic
 
 
 ![image](https://user-images.githubusercontent.com/94873456/183282651-2ae5a945-255c-4c56-becc-5f8c3e10704b.png)
+
 ![image](https://user-images.githubusercontent.com/94873456/183282663-ab00f423-cee3-4b91-9ced-bf31b790397a.png)
+
 ![image](https://user-images.githubusercontent.com/94873456/183282676-406626c1-3280-4678-9b0d-20cff029c397.png)
+
 ![image](https://user-images.githubusercontent.com/94873456/183282691-3cc90b7c-c708-411a-a321-1ac6dded8100.png)
+
 ![image](https://user-images.githubusercontent.com/94873456/183282702-e7699152-99e1-4d3b-9e22-b6ec80d038ef.png)
 
 
@@ -212,8 +216,11 @@ NOS MOVEMOS HASTA LA CARPETA DONDE EXTRAIMOS EL ZIP HASTA LLEGAR AL .INF
 
 
 ![image](https://user-images.githubusercontent.com/94873456/183282709-60d5d588-bb0e-4f22-a41c-81fadfb49874.png)
+
 ![image](https://user-images.githubusercontent.com/94873456/183282722-6c022e20-2c66-4d99-b348-475757c5c70b.png)
+
 ![image](https://user-images.githubusercontent.com/94873456/183282732-98901e7b-c6eb-4cf9-8cd2-58e0c1047b5e.png)
+
 
 WIFI SOLUCIONADO
 Con esto nuestro problema de WIFI / Ethernet será solucionado
