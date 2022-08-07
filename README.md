@@ -6,32 +6,46 @@ Guia de instalacion de KernelOS 10
 
 
 
-Antes de instalar KernelOS :
+                                                                  Antes de instalar KernelOS :
+                                                                  
+                                                                  
+                                                                  
  ASEGURATE DE TENER SECURE BOOT DESHABILITADO
 Esta puede ser una opción individual (enable/disable) o una lista de keys que pueden borrarse 
 ¿que es KernelOS?
 KernelOS es un sistema operativo customizado basado en windows 10 version 1809
 
-¿Qué problemas presenta KernelOS?
+                                                                ¿Qué problemas presenta KernelOS?
+                                                                
+                                                                
+                                                                
 Este es un windows customizado y con muchísimas funciones que normalmente están en windows normal, aquí la lista de las cosas que kernelOS win10 no soporta
 
+Unsupported  -  KernelOS
+KernelOS 1809 v1.3 
 
-
-
-
-
-
-
-
-
-
+• Restore Point
+• Printing
+• Bluetooth
+• Xbox Apps
+• Remote Desktop
+• Windows Defender
+• Windows Search
+• Snip Sketch
+• Microsoft Store
+• Voice Recognition
+• Mobile Hotspot
+• Cheating or cracked software
 
 También muchos instaladores presentaran errores de “missing fonts” o similares como LibreOffice o Photoshop
-Para estos se recomienda buscar versiones alternativas o el programa mismo pero portable
+Para estos se recomienda buscar versiones alternativas o el programa mismo pero portable (esto sera fixeado en la version 1.4 de la iso, actualmente solo la 1.3 esta disponible) 
 Antes de instalar asegurate que lo que quieras usar sea compatible con windows 10 versión 1809
 Si bien el soporte oficial por parte del desarrollador se encuentra pausado, puedes unirte al discord
 https://discord.io/KernelOS
-¿Cómo instalar KernelOS?
+
+                                                                ¿Cómo instalar KernelOS?
+                                                                
+                                                                
 Instalar KernelOS puede ser un procedimiento difícil para la gente que no está acostumbrada, si lees bien la guia te aseguro que inclusive el mas desentendido podria realizar la instalación
 
 Ahora sí, prosigamos con la instalación
@@ -40,9 +54,13 @@ Antes que nada necesitarás el archivo .ISO (Optical disc image)
 El link de descarga es el siguiente 
 (si tienes el error “no puedes ver ni descargar el archivo actualmente” recuerda loguearte en google drive ya que el archivo pesa mas de 1gb y por eso no te dejara bajarlo sin loguearte)
 Si el link no te funciona (puede ser porque la versión se actualizó, el owner quito la descarga o otros factores) dentro del discord posiblemente encontraras la version mas actual
-Rufus
+                                                                            Rufus
+                                                                            
+                                                                            
 Antes que nada la versión de rufus que tienes que utilizar es esta ya que otras podrían dar errores
 
+
+![image](https://user-images.githubusercontent.com/94873456/183282561-08ec44a5-71e0-4fc2-b159-e05df6a023c7.png)
 
 
 Una vez que abran rufus tendrán una interfaz similar a la siguiente, pero en la casilla DEVICE
@@ -51,7 +69,10 @@ Puede tener un nombre y almacenamiento (GB)
 Una vez que estén en la pantalla ARRASTRAN EL ARCHIVO .ISO A RUFUS
 Un video referencial x si no entienden
 
-OPCIONES DE RUFUS
+                                                                       OPCIONES DE RUFUS
+                                                                       
+                                                                       
+                                                                      
 
 “Partition scheme and target system type”
 Asegurate de que esté en “GPT partition scheme for UEFI”
@@ -61,34 +82,37 @@ Asegurate de que este en “NTFS” (si tienes un error al bootear, puedes reemp
 Todas las demás opciones dejarlas como vienen después de configurar las dos opciones anteriores en orden
 
 
-PRIMER PASO TERMINADO!!!
+                                                                      PRIMER PASO TERMINADO!!!
+                                                                      
+                                                                      
 Actualmente terminaste el paso 1 de la instalación no solo de KernelOS, si no de cualquier Sistema operativo en general, conseguir un pendrive booteable.
 El siguiente paso una vez que ya dispones del pendrive booteable es
 
-BOOTEAR EL PENDRIVE
+                                                                          
+                                                                        BOOTEAR EL PENDRIVE
+                                                                        
+                                                                        
 Cuando ya tienes el pendrive booteable, solo queda bootearlo pero, ¿cómo bootear un pendrive?
 Para esto tendrás que acceder a las BOOT OPTIONS de tu bios, si tu bios es antigua puede ser que no tengas esa opción, pero la que siempre tendrás es “boot priority”, aquí unos ejemplos
 
-BOOT PRIORITY
+                                                                           BOOT PRIORITY
+                                                                           
+![image](https://user-images.githubusercontent.com/94873456/183282572-93ef81ca-2071-42b6-8566-d858064934a3.png)
+
 
 
 BOOT OPTIONS
 
 
+![image](https://user-images.githubusercontent.com/94873456/183282583-4520aebf-268c-49f8-b5e0-4194f8ea43c1.png)
+
+                                                                PASO DOS COMPLETADO, PENDRIVE BOOTEADO
+                                                                
+                                                                
 
 
 
-
-
-
-
-
-
-
-
-PASO DOS COMPLETADO, PENDRIVE BOOTEADO
-Si llegaste hasta aca ya deberías estar en una pantalla como la siguiente
-
+[image](https://user-images.githubusercontent.com/94873456/183282596-3fa6db16-e249-43d1-a88b-b711751bad4b.png)
 
 
 En esta parte la cantidad de particiones y discos no serán las mismas para todos pero esto no es relevante
@@ -96,7 +120,11 @@ En esta parte la cantidad de particiones y discos no serán las mismas para todo
 En esta pantalla tendrás que ingresar la siguiente combinación de teclas: SHIFT + F10
 Si tienes una notebook esta combinación puede ser SHIFT+FN+F10
 Una vez apretada esta combinación de teclas, entrar en una pantalla negra en la que puedes escribir, primero tendrás que escribir DISKPART obviamente después de cada comando que pondre aqui tendras que apretar enter, luego del comando diskpart tendras que introducir el comando LIST DISK y obtendrás una lista con tu cantidad de discos + tu pendrive
- 
+
+
+![image](https://user-images.githubusercontent.com/94873456/183282606-2d553351-a6f2-42b4-97f1-3fed8893b1e4.png)
+
+
 En este caso yo dispongo de 2 discos y un pendrive que generalmente será la última opción, en este caso DISK 2.
 
 Una vez que consigas la cantidad total de discos que dispone tu PC, tendrás que introducir los siguientes comandos
@@ -124,14 +152,21 @@ Con esto se nos quedará el disco dividido en aproximadamente 4 particiones, cli
 Una vez terminado esto el sistema operativo empezará a instalarse
 
 
+![image](https://user-images.githubusercontent.com/94873456/183282612-29ddb6ec-de76-45a4-987b-4824ba0bf14b.png)
+
+
 Si booteaste el pendrive por el medio “Boot Priority” recuerda desconectar el pendrive una vez que el proceso haya terminado
 
 Una vez terminado se booteara por primera vez nuestro nuevo sistema operativo, KernelOS
 
-PASO TRES, WINDOWS INSTALADO
+                                                                  PASO TRES, WINDOWS INSTALADO
+                                                                    
+                                                                    
 Una vez que el windows haya booteado por primera vez, tendremos que completar el script inicial, este es segun la eleccion del usuario completamente, lee bien las opciones y si no sabes que son no las actives
 
-PASO CUATRO, SCRIPT FINALIZADO
+                                                                 PASO CUATRO, SCRIPT FINALIZADO
+                                                              
+                                                              
 Una vez que hayas finalizado el script inicial y se haya reiniciado tu PC serás capaz de usar kernelOS pero todavía faltan cosas
 
 No tengo wifi, que hago?
@@ -143,16 +178,33 @@ Estos pueden ser conseguidos al ser buscados por HARDWARE ID, para conseguir nue
 Apretamos la combinación “WINDOWS+X” y bajaremos con las flechas hasta “device manager” 
 Una vez dentro iremos a “Other Devices” y buscaremos “Network Controller” , le damos segundo click, properties, iremos a “Details” y en la casilla de seleccion pondremos “hardware ids” y tendremos algo asi:
 
+
+![image](https://user-images.githubusercontent.com/94873456/183282612-29ddb6ec-de76-45a4-987b-4824ba0bf14b.png)
+
+
 Segundo click en la primera opción y copiar, la mia es “PCI\VEN_10EC&DEV_8168&SUBSYS_86771043&REV_15” pero la suya será distinta
-Ahora entraremos en esta página desde otra pc o desde un celular y ingresamos nuestro hardware id, aquí un ejemplo
+Ahora entraremos en esta página (https://driverpack.io/es/catalog) desde otra pc o desde un celular y ingresamos nuestro hardware id, aquí un ejemplo
+
+
+![image](https://user-images.githubusercontent.com/94873456/183282622-71a0a08b-92bc-4720-800c-a2525786d1ec.png)
+
 
 Y le damos “Buscar”
 Ahora tendremos una pantalla similar a esta
 
+
+![image](https://user-images.githubusercontent.com/94873456/183282632-62574eda-cc7b-4309-80cd-8be7d9867f4c.png)
+
+
 Da click en “Download ZIP”
 Y obtendrás un archivo zip, mueve este desde tu otra pc con un pendrive o desde tu telefono con un cable USB a tu pc sin internet, al extraer el zip obtendras algo con muchas carpetas y al final un aproximado de 3 archivos, un .INF, un .SYS y un .CAT
 Para actualizar nuestros drivers tendremos que hacer el procedimiento que ya hicimos antes para obtener nuestro “HARDWARE ID” pero en vez de ir a esa pestaña iremos a “driver” y luego “update driver”
- 
+
+![image](https://user-images.githubusercontent.com/94873456/183282640-5777faf2-8afa-4d30-b709-8945a2eedec4.png)
+![image](https://user-images.githubusercontent.com/94873456/183282651-2ae5a945-255c-4c56-becc-5f8c3e10704b.png)
+![image](https://user-images.githubusercontent.com/94873456/183282663-ab00f423-cee3-4b91-9ced-bf31b790397a.png)
+![image](https://user-images.githubusercontent.com/94873456/183282676-406626c1-3280-4678-9b0d-20cff029c397.png)
+![image](https://user-images.githubusercontent.com/94873456/183282691-3cc90b7c-c708-411a-a321-1ac6dded8100.png)
 
 
 
