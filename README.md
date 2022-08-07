@@ -112,7 +112,7 @@ BOOT OPTIONS
 
 
 
-[image](https://user-images.githubusercontent.com/94873456/183282596-3fa6db16-e249-43d1-a88b-b711751bad4b.png)
+![image](https://user-images.githubusercontent.com/94873456/183282596-3fa6db16-e249-43d1-a88b-b711751bad4b.png)
 
 
 En esta parte la cantidad de particiones y discos no serán las mismas para todos pero esto no es relevante
@@ -179,90 +179,41 @@ Apretamos la combinación “WINDOWS+X” y bajaremos con las flechas hasta “d
 Una vez dentro iremos a “Other Devices” y buscaremos “Network Controller” , le damos segundo click, properties, iremos a “Details” y en la casilla de seleccion pondremos “hardware ids” y tendremos algo asi:
 
 
-![image](https://user-images.githubusercontent.com/94873456/183282612-29ddb6ec-de76-45a4-987b-4824ba0bf14b.png)
+![image](https://user-images.githubusercontent.com/94873456/183282622-71a0a08b-92bc-4720-800c-a2525786d1ec.png)
 
 
 Segundo click en la primera opción y copiar, la mia es “PCI\VEN_10EC&DEV_8168&SUBSYS_86771043&REV_15” pero la suya será distinta
 Ahora entraremos en esta página (https://driverpack.io/es/catalog) desde otra pc o desde un celular y ingresamos nuestro hardware id, aquí un ejemplo
 
 
-![image](https://user-images.githubusercontent.com/94873456/183282622-71a0a08b-92bc-4720-800c-a2525786d1ec.png)
+![image](https://user-images.githubusercontent.com/94873456/183282632-62574eda-cc7b-4309-80cd-8be7d9867f4c.png)
 
 
 Y le damos “Buscar”
 Ahora tendremos una pantalla similar a esta
 
 
-![image](https://user-images.githubusercontent.com/94873456/183282632-62574eda-cc7b-4309-80cd-8be7d9867f4c.png)
+![image](https://user-images.githubusercontent.com/94873456/183282640-5777faf2-8afa-4d30-b709-8945a2eedec4.png)
 
 
 Da click en “Download ZIP”
 Y obtendrás un archivo zip, mueve este desde tu otra pc con un pendrive o desde tu telefono con un cable USB a tu pc sin internet, al extraer el zip obtendras algo con muchas carpetas y al final un aproximado de 3 archivos, un .INF, un .SYS y un .CAT
 Para actualizar nuestros drivers tendremos que hacer el procedimiento que ya hicimos antes para obtener nuestro “HARDWARE ID” pero en vez de ir a esa pestaña iremos a “driver” y luego “update driver”
 
-![image](https://user-images.githubusercontent.com/94873456/183282640-5777faf2-8afa-4d30-b709-8945a2eedec4.png)
+
 ![image](https://user-images.githubusercontent.com/94873456/183282651-2ae5a945-255c-4c56-becc-5f8c3e10704b.png)
 ![image](https://user-images.githubusercontent.com/94873456/183282663-ab00f423-cee3-4b91-9ced-bf31b790397a.png)
 ![image](https://user-images.githubusercontent.com/94873456/183282676-406626c1-3280-4678-9b0d-20cff029c397.png)
 ![image](https://user-images.githubusercontent.com/94873456/183282691-3cc90b7c-c708-411a-a321-1ac6dded8100.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/94873456/183282702-e7699152-99e1-4d3b-9e22-b6ec80d038ef.png)
 
 
 NOS MOVEMOS HASTA LA CARPETA DONDE EXTRAIMOS EL ZIP HASTA LLEGAR AL .INF
 
 
-
-
-
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/94873456/183282709-60d5d588-bb0e-4f22-a41c-81fadfb49874.png)
+![image](https://user-images.githubusercontent.com/94873456/183282722-6c022e20-2c66-4d99-b348-475757c5c70b.png)
+![image](https://user-images.githubusercontent.com/94873456/183282732-98901e7b-c6eb-4cf9-8cd2-58e0c1047b5e.png)
 
 WIFI SOLUCIONADO
 Con esto nuestro problema de WIFI / Ethernet será solucionado
@@ -272,11 +223,11 @@ Para instalar los drivers de tu placa sigue lo siguiente:
 
 AMD
 Para amd podrás instalar los drivers de forma manual o automática, ambas son útiles.
-De forma manual puedes sacar el panel de AMD, aquí te dejo un video de como deblotear los drivers de AMD, esto no es un debloteo serio ya que en si solo borro un par de archivos y no modificó el .INF que es lo realmente importante, pero esto es para usuarios avanzados y no es necesario para nada
+De forma manual puedes sacar el panel de AMD, aquí (https://youtu.be/RK53Zj7lY9M) te dejo un video de como deblotear los drivers de AMD, esto no es un debloteo serio ya que en si solo borro un par de archivos y no modificó el .INF que es lo realmente importante, pero esto es para usuarios avanzados y no es necesario para nada
 NVidia
 En nvidia es siempre 100% recomendado usar NVCLEANINSTALL
 Este permite deblotear los drivers de nvidia de forma “automática”
-Aqui un link de como instalar los drivers
+Aqui (https://youtu.be/THX6yO0hjx8) un link de como instalar los drivers
 
 
 
