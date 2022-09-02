@@ -6,7 +6,7 @@ Guia de instalacion de KernelOS 10
 
 
 
-                                                                  Antes de instalar KernelOS :
+                                                                Antes de instalar KernelOS :
                                                                   
                                                                   
                                                                   
@@ -15,7 +15,7 @@ Esta puede ser una opción individual (enable/disable) o una lista de keys que p
 ¿que es KernelOS?
 KernelOS es un sistema operativo customizado basado en windows 10 version 1809
 
-                                                                ¿Qué problemas presenta KernelOS?
+                                                              ¿Qué problemas presenta KernelOS?
                                                                 
                                                                 
                                                                 
@@ -43,7 +43,7 @@ Antes de instalar asegurate que lo que quieras usar sea compatible con windows 1
 Si bien el soporte oficial por parte del desarrollador se encuentra pausado, puedes unirte al discord
 https://discord.io/KernelOS
 
-                                                                ¿Cómo instalar KernelOS?
+                                                               ¿Cómo instalar KernelOS?
                                                                 
                                                                 
 Instalar KernelOS puede ser un procedimiento difícil para la gente que no está acostumbrada, si lees bien la guia te aseguro que inclusive el mas desentendido podria realizar la instalación
@@ -54,7 +54,7 @@ Antes que nada necesitarás el archivo .ISO (Optical disc image)
 El link de descarga es el siguiente 
 (si tienes el error “no puedes ver ni descargar el archivo actualmente” recuerda loguearte en google drive ya que el archivo pesa mas de 1gb y por eso no te dejara bajarlo sin loguearte)
 Si el link no te funciona (puede ser porque la versión se actualizó, el owner quito la descarga o otros factores) dentro del discord posiblemente encontraras la version mas actual
-                                                                            Rufus
+                                                                           Rufus
                                                                             
                                                                             
 Antes que nada la versión de rufus que tienes que utilizar es esta ya que otras podrían dar errores
