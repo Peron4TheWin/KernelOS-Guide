@@ -1,21 +1,18 @@
-# KernelOS-Guide
+# <p align="center">KernelOS-Guide
 una guia de como instalar kernelOS (win 10 1809 ) y tambien instalacion de drivers de internet
 
 
-Guia de instalacion de KernelOS 10 
 
+## <p align="center">Antes de instalar KernelOS :
+----  
 
-
-                                                                Antes de instalar KernelOS :
-                                                                  
-                                                                  
-                                                                  
- ASEGURATE DE TENER SECURE BOOT DESHABILITADO
+ASEGURATE DE TENER SECURE BOOT DESHABILITADO  
 Esta puede ser una opción individual (enable/disable) o una lista de keys que pueden borrarse 
 ¿que es KernelOS?
 KernelOS es un sistema operativo customizado basado en windows 10 version 1809
 
-                                                              ¿Qué problemas presenta KernelOS?
+## <p align="center">¿Qué problemas presenta KernelOS?  
+----
                                                                 
                                                                 
                                                                 
@@ -24,26 +21,27 @@ Este es un windows customizado y con muchísimas funciones que normalmente está
 Unsupported  -  KernelOS
 KernelOS 1809 v1.3 
 
-• Restore Point
-• Printing
-• Bluetooth
-• Xbox Apps
-• Remote Desktop
-• Windows Defender
-• Windows Search
-• Snip Sketch
-• Microsoft Store
-• Voice Recognition
-• Mobile Hotspot
-• Cheating or cracked software
+
+* Restore Point
+* Printing
+* Bluetooth
+* Xbox Apps
+* Remote Desktop
+* Windows Defender
+* Windows Search
+* Snip Sketch
+* Microsoft Store
+* Voice Recognition
+* Mobile Hotspot
+* Cheating or cracked software
 
 También muchos instaladores presentaran errores de “missing fonts” o similares como LibreOffice o Photoshop
 Para estos se recomienda buscar versiones alternativas o el programa mismo pero portable (esto sera fixeado en la version 1.4 de la iso, actualmente solo la 1.3 esta disponible) 
 Antes de instalar asegurate que lo que quieras usar sea compatible con windows 10 versión 1809
-Si bien el soporte oficial por parte del desarrollador se encuentra pausado, puedes unirte al discord
-https://discord.io/KernelOS
+Si bien el soporte oficial por parte del desarrollador se encuentra pausado, puedes unirte al [discord](https://discord.io/KernelOS)
 
-                                                               ¿Cómo instalar KernelOS?
+## <p align="center">¿Cómo instalar KernelOS?
+----
                                                                 
                                                                 
 Instalar KernelOS puede ser un procedimiento difícil para la gente que no está acostumbrada, si lees bien la guia te aseguro que inclusive el mas desentendido podria realizar la instalación
@@ -52,11 +50,9 @@ Ahora sí, prosigamos con la instalación
 
 Antes que nada necesitarás el archivo .ISO (Optical disc image)
 El link de descarga es el siguiente 
-(si tienes el error “no puedes ver ni descargar el archivo actualmente” recuerda loguearte en google drive ya que el archivo pesa mas de 1gb y por eso no te dejara bajarlo sin loguearte)
-Si el link no te funciona (puede ser porque la versión se actualizó, el owner quito la descarga o otros factores) dentro del discord posiblemente encontraras la version mas actual
-                                                                           Rufus
-                                                                            
-                                                                            
+(si tienes el error “no puedes ver ni descargar el archivo actualmente” `recuerda loguearte en google drive` ya que el archivo pesa mas de 1gb y por eso no te dejara bajarlo sin loguearte)
+Si el link no te funciona (puede ser porque la versión se actualizó, el owner quito la descarga o otros factores) dentro del discord posiblemente encontraras la version mas actual Rufus
+                                                                                                                                                
 Antes que nada la versión de rufus que tienes que utilizar es esta ya que otras podrían dar errores
 
 
@@ -69,8 +65,8 @@ Puede tener un nombre y almacenamiento (GB)
 Una vez que estén en la pantalla ARRASTRAN EL ARCHIVO .ISO A RUFUS
 Un video referencial x si no entienden
 
-                                                                       OPCIONES DE RUFUS
-                                                                       
+## <p align="center">OPCIONES DE RUFUS
+----                                              
                                                                        
                                                                       
 
@@ -81,32 +77,33 @@ Asegurate de que este en “NTFS” (si tienes un error al bootear, puedes reemp
 
 Todas las demás opciones dejarlas como vienen después de configurar las dos opciones anteriores en orden
 
-
-                                                                      PRIMER PASO TERMINADO!!!
+## <p align="center">PRIMER PASO TERMINADO!!!
+----
                                                                       
                                                                       
 Actualmente terminaste el paso 1 de la instalación no solo de KernelOS, si no de cualquier Sistema operativo en general, conseguir un pendrive booteable.
 El siguiente paso una vez que ya dispones del pendrive booteable es
-
-                                                                          
-                                                                        BOOTEAR EL PENDRIVE
+### BOOTEAR EL PENDRIVE
+----
                                                                         
                                                                         
 Cuando ya tienes el pendrive booteable, solo queda bootearlo pero, ¿cómo bootear un pendrive?
 Para esto tendrás que acceder a las BOOT OPTIONS de tu bios, si tu bios es antigua puede ser que no tengas esa opción, pero la que siempre tendrás es “boot priority”, aquí unos ejemplos
-
-                                                                           BOOT PRIORITY
+### BOOT PRIORITY
+----
                                                                            
 ![image](https://user-images.githubusercontent.com/94873456/183282572-93ef81ca-2071-42b6-8566-d858064934a3.png)
 
 
 
-BOOT OPTIONS
+### BOOT OPTIONS
+----
 
 
 ![image](https://user-images.githubusercontent.com/94873456/183282583-4520aebf-268c-49f8-b5e0-4194f8ea43c1.png)
 
-                                                                PASO DOS COMPLETADO, PENDRIVE BOOTEADO
+
+## <p align="center">PASO DOS COMPLETADO, PENDRIVE BOOTEADO
                                                                 
                                                                 
 
@@ -159,12 +156,14 @@ Si booteaste el pendrive por el medio “Boot Priority” recuerda desconectar e
 
 Una vez terminado se booteara por primera vez nuestro nuevo sistema operativo, KernelOS
 
-                                                                  PASO TRES, WINDOWS INSTALADO
+## <p align="center">PASO TRES, WINDOWS INSTALADO
+----
                                                                     
                                                                     
 Una vez que el windows haya booteado por primera vez, tendremos que completar el script inicial, este es segun la eleccion del usuario completamente, lee bien las opciones y si no sabes que son no las actives
 
-                                                                 PASO CUATRO, SCRIPT FINALIZADO
+## <p align="center">PASO CUATRO, SCRIPT FINALIZADO
+----
                                                               
                                                               
 Una vez que hayas finalizado el script inicial y se haya reiniciado tu PC serás capaz de usar kernelOS pero todavía faltan cosas
@@ -226,18 +225,25 @@ WIFI SOLUCIONADO
 Con esto nuestro problema de WIFI / Ethernet será solucionado
 
 COMO INSTALO LOS DRIVERS DE MI PLACA?
-Para instalar los drivers de tu placa sigue lo siguiente:
+Para instalar los drivers de tu placa sigue lo siguiente:  
+<br/><br/><br/>
 
-AMD
+#### AMD
+----
 Para amd podrás instalar los drivers de forma manual o automática, ambas son útiles.
-De forma manual puedes sacar el panel de AMD, aquí (https://youtu.be/RK53Zj7lY9M) te dejo un video de como deblotear los drivers de AMD, esto no es un debloteo serio ya que en si solo borro un par de archivos y no modificó el .INF que es lo realmente importante, pero esto es para usuarios avanzados y no es necesario para nada
-NVidia
+De forma manual puedes sacar el panel de AMD, [aqui te dejo mi video](https://www.youtube.com/watch?v=pYWBeQIqFZU) te dejo un video de como deblotear los drivers de AMD, esto no es un debloteo serio ya que en si solo borro un par de archivos y no modificó el .INF que es lo realmente importante, pero esto es para usuarios avanzados y no es necesario para nada<br/><br/><br/>
+#### NVidia
+----
 En nvidia es siempre 100% recomendado usar NVCLEANINSTALL
 Este permite deblotear los drivers de nvidia de forma “automática”
-Aqui (https://youtu.be/THX6yO0hjx8) un link de como instalar los drivers
+[Aqui](https://youtu.be/THX6yO0hjx8) un link de como instalar los drivers
 
 
 
-Final (basico)
+## <p align="center"> Final
+----
 Aquí termina la guia para usuarios básicos, si no eres un entendido no hace falta que pases de aquí ya que si bien lo que mostraré es una guia del post install de KernelOS, puede dar fallas si no se hace bien y dejar tu windows inutilizable haciéndote que tengas que repetir todo este proceso
 
+## <p align="center"> Post Install
+----
+una guia completa del [post install](https://docs.google.com/document/d/1KvuhSwrzqJYDqTUY7EZyTFgZ2sjc0eCCmEeoblq3ZCo/edit), hecha por varios usuarios de KernelOS, para usuarios avanzados
