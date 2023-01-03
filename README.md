@@ -238,6 +238,14 @@ En nvidia es siempre 100% recomendado usar NVCLEANINSTALL
 Este permite deblotear los drivers de nvidia de forma “automática”
 [Aqui](https://youtu.be/THX6yO0hjx8) un link de como instalar los drivers
 
+## <p align="center"> comandos utiles
+----
+<br>
+<h3>Alt tab nuevo </h2>
+
+```bat
+Reg.exe add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /v "AltTabSettings" /t REG_DWORD /d "0" /f && taskkill /im explorer.exe /F && explorer && exit
+```
 
 
 ## <p align="center"> Final
